@@ -1,0 +1,499 @@
+@media (min-width:320px) {
+
+    * {
+        font-family: 'Prompt', sans-serif;
+    }
+
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    body {
+        display: none;
+    }
+
+    .container {
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        display: -moz-inline-stack;
+        padding: 0;
+    }
+
+
+    .panels {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .panels .content {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 99;
+    }
+
+    .panels-1 {
+        top: 0px;
+        background-image: url(/img/los-angeles-3580722_1920.jpg);
+        background-position: center;
+        background-size: cover;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .panels-1 h1 {
+
+        font-weight: 900;
+        color: rgba(194, 193, 193, 0.658);
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 25vh;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #content2 p {
+        font-size: 2rem;
+    }
+
+    #content2 p:nth-of-type(2) {
+        font-size: 1rem;
+        padding: 5%;
+    }
+
+    /* STRZAŁKA *********/
+    #arrow {
+        top: 90%;
+        height: 100px;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 50px;
+        text-shadow: 0 -25px 0 #E3B8A9, 0 -50px 0 #E3B8A9;
+        overflow: hidden;
+        transition: 0, 4s ease;
+    }
+
+
+    #arrow:hover {
+        text-shadow: 0 -25px 0 #E3B8A9, 0 -50px 0 #E3B8A9;
+        color: #E3B8A9;
+        border-color: #E3B8A9;
+        cursor: pointer;
+    }
+
+
+    .fa-angle-down {
+        animation: arrow 2s infinite linear;
+        color: #E3B8A9;
+    }
+
+    @keyframes arrow {
+        0% {
+            transform: translateY(-80px)
+        }
+
+        50% {
+            transform: translateY(0px)
+        }
+
+        100% {
+            transform: translateY(80px)
+        }
+    }
+
+    /******* */
+
+    .panels-2 {
+        background-color: black;
+        top: 100%;
+        background-color: #033342;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        left: 0;
+        background-size: cover;
+
+    }
+
+    .panels-7 {
+
+        top: 800%;
+        background-color: #033342;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        left: 0;
+        background-size: cover;
+
+    }
+
+    .panels-2 img {
+        position: absolute;
+
+    }
+
+    #content2 .skils {
+        width: 20%;
+        left: 50%;
+    }
+
+    #content2 .skils2 {
+        width: 20%;
+        left: 25%;
+    }
+
+    .panels-3 {
+        top: 200%;
+        background-color: rgb(240, 236, 237);
+    }
+
+    .panels .panels-3 {
+        height: auto;
+    }
+
+
+    .panels-4 {
+        background-color: #586572;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        background-size: cover;
+        top: 300%;
+    }
+
+    .panels-5 {
+        top: 400%;
+        background-color: #7D4249;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        background-size: cover;
+    }
+
+    .panels-6 {
+        top: 500%;
+        background-color: rgb(6, 87, 87);
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        background-size: cover;
+    }
+
+    #content4 {
+        display: table;
+        z-index: 5;
+    }
+
+    img .site {
+        width: 30px;
+        /* height: 100%; */
+    }
+
+}
+
+@media (min-width:360px) {
+    .panels-1 h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width:460px) {
+    .panels-1 h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width:640px) {
+    .panels-1 h1 {
+        font-size: 4rem;
+        margin-top: 33vh;
+        justify-content: center;
+    }
+}
+
+@media (min-width:768px) {
+    .panels-1 h1 {
+        font-size: 6rem;
+        margin-top: 33vh;
+    }
+}
+
+@media (min-width:1024px) {
+    .panels-1 h1 {
+        font-size: 7rem;
+        margin-top: 31vh;
+    }
+
+
+
+}
+
+@media (min-width:1280px) {
+    .panels-1 h1 {
+        font-size: 9rem;
+        margin-top: 26vh;
+        font-weight: 900;
+    }
+}
+
+
+
+.gallery-section {
+    width: 100%;
+    padding: 40px 0;
+    /* background-color: #f1f1f1; */
+}
+
+.inner-width {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.gallery-section h1 {
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+    font-size: 2rem;
+    color: rgba(194, 193, 193, 0.658);
+}
+
+/* .border {
+    width: 180px;
+    height: 4px;
+    background: #333;
+    margin: 60px auto;
+} */
+
+.gallery-section .gallery {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.gallery-section .image {
+    flex: 25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-section .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-section .image:hover img {
+    transform: scale(1.4)rotate(15deg);
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:360px) {
+    .gallery-section .image {
+        flex: 49%;
+    }
+
+    .gallery-section .image img {
+        width: 50vw;
+        height: 100%;
+    }
+
+    .inner-width {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:320px) {
+    .gallery-section .image {
+        flex: 49%;
+    }
+
+    .gallery-section .image img {
+        width: 50vw;
+        height: 100%;
+    }
+
+    .inner-width {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .gallery-section .image {
+        flex: 20%;
+    }
+
+    .gallery-section {
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        /* background-color: #f1f1f1; */
+    }
+
+    .gallery-section .image img {
+        width: 30vw;
+        height: 100%;
+    }
+
+    .inner-width {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .gallery-section .image {
+        flex: 50%;
+    }
+
+    .gallery-section {
+        width: 100%;
+        height: 100vh;
+        padding: 40px 0;
+        /* background-color: #f1f1f1; */
+    }
+
+    .gallery-section .image img {
+        width: 50vw;
+        height: 100%;
+    }
+
+    .inner-width {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .gallery-section .image {
+        flex: 50%;
+    }
+
+    .gallery-section {
+        width: 100%;
+        height: 100vh;
+        padding: 40px 0;
+        /* background-color: #f1f1f1; */
+    }
+
+    .gallery-section .image img {
+        width: 50vw;
+        height: 100%;
+    }
+
+    .inner-width {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 0;
+    }
+
+    .gallery-section h1 {
+        text-align: center;
+        font-weight: 500;
+        color: #333;
+        font-size: 4rem;
+        color: rgba(194, 193, 193, 0.658);
+    }
+
+    #content2 p {
+        font-size: 3rem;
+    }
+
+    #content2 p:nth-of-type(2) {
+        font-size: 2rem;
+        padding: 5%;
+    }
+
+}
+
+@media screen and (min-width:960px) {
+    .gallery-section .image {
+        flex: 33.33%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .gallery-section .image {
+        flex: 25%;
+    }
+
+    .gallery-section .image img {
+        width: 30vw;
+        height: 100%;
+    }
+
+
+}
+
+@media screen and (min-width:1024px) {
+
+
+    .gallery-section .image {
+        flex: 25%;
+    }
+
+    .gallery-section .image img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .gallery-section h1 {
+        text-align: center;
+        font-weight: 500;
+        color: #333;
+        font-size: 3rem;
+        color: rgba(194, 193, 193, 0.658);
+    }
+
+    #content2 p {
+        font-size: 3rem;
+    }
+
+    #content2 p:nth-of-type(2) {
+        font-size: 1.5rem;
+        padding: 5%;
+    }
+
+    .site {
+        width: 30%;
+        left: 60%;
+    }
+
+    .gallery-section .image:hover img {
+        transform: none;
+    }
+}
